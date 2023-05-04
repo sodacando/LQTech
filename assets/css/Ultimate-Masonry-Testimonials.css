@@ -1,0 +1,88 @@
+#testimonials .image {
+  background: #fff;
+  border-radius: 50%;
+  border: solid 8px #fff;
+}
+
+#testimonials .content-wrapper {
+  background-color: #dadada;
+  border-radius: 15px;
+  padding: 70px 20px 20px;
+  margin-top: -56px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+  margin-bottom: 30px;
+}
+
+#testimonials .content {
+  position: relative;
+  z-index: 1;
+}
+
+#testimonials .quote-wrapper-dark {
+  position: relative;
+  z-index: 0;
+  opacity: .07;
+}
+
+#testimonials .quote-wrapper-light {
+  position: relative;
+  z-index: 0;
+  opacity: .4;
+}
+
+#testimonials .quote-wrapper-color {
+  opacity: .3;
+  filter: invert(50%) sepia(10%) saturate(101) hue-rotate(23deg) brightness(136%) contrast(112%);
+}
+
+#testimonials .quote-wrapper-color2 {
+  opacity: .3;
+  filter: invert(51%) sepia(11%) saturate(67) hue-rotate(166deg) brightness(131%) contrast(80%);
+}
+
+#testimonials .quote-left {
+  position: absolute;
+  top: -4px;
+  left: -5px;
+}
+
+#testimonials .quote-right {
+  position: absolute;
+  top: -125px;
+  right: -5px;
+}
+
+#testimonials .rating {
+  display: inline-block;
+  font-size: 15px;
+  background-color: #ffffff;
+  padding: 1px 7px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+#testimonials .rating-wrapper {
+  margin: 0 1.5px;
+}
+
+#testimonials .signature {
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+}
+
+#testimonials .text {
+  text-align: justify;
+  font-size: 18px;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+#testimonials .date {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
